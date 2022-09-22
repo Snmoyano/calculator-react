@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+
+  background-image: url("../public/img/peakpx.jpg");
+  font-family: lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor__calculadora {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #99c9ff transparent;
+  border-radius: 10px;
+  border: 5px solid rgb(15, 13, 13);
+  box-shadow: 10px 10px 5px 8px rgba(0, 0, 0, 0.6);
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
